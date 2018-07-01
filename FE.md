@@ -15,8 +15,8 @@
 ## Expectations
 
 - You can use any framework you want for this task
+- ECMAScript 6 and beyond must be used
 - Quality over quantity
-- For uncompleted points please mention in the readme how you were going to implement it.
+- For uncompleted points please mention in the readme how you were going to implement them.
 
-We are looking for **readability, documentation, good architectural decisions, eye for perofrmance, modularity, and unit tested 
-code.**
+We are looking for **readability, documentation, good architectural decisions, eye for performance, modularity, and unit tested code.**
