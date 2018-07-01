@@ -1,0 +1,305 @@
+{
+  "hotels": [
+    {
+      "id": 37681,
+      "name": "Hilton Sharm",
+      "totalReviews": 1678,
+      "totalScore": 8.5,
+      "pricePerNight": 180,
+      "photo": "https://picsum.photos/40/40/?random"
+    },
+    {
+      "id": 18671,
+      "name": "Sheraton Sharm",
+      "totalReviews": 78,
+      "totalScore": 9,
+      "pricePerNight": 80,
+      "photo": "https://picsum.photos/40/40/?random"
+    },
+    {
+      "id": 27861,
+      "name": "Grand Hayatt Sharm",
+      "totalReviews": 678,
+      "totalScore": 7,
+      "pricePerNight": 300,
+      "photo": "https://picsum.photos/40/40/?random"
+    }
+  ],
+  "hotelDetails": [
+    {
+      "id": 37681,
+      "name": "Hilton Sharm",
+      "reviews": [
+        {
+          "review": "I really liked my stay in hilton sharm",
+          "score": 5
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim tortor at auctor urna. Mattis vulputate enim nulla aliquet porttitor.",
+          "score": 4.9
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et magnis dis parturient montes nascetur ridiculus. Dictum varius duis at consectetur lorem donec.",
+          "score": 4.6
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus laoreet non curabitur gravida arcu ac tortor dignissim. In fermentum posuere urna nec.",
+          "score": 4.5
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec pretium vulputate sapien nec sagittis aliquam malesuada. Ipsum dolor sit amet consectetur adipiscing elit.",
+          "score": 4
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas pharetra convallis posuere morbi leo. Maecenas accumsan lacus vel facilisis volutpat est.",
+          "score": 3.5
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet bibendum enim facilisis gravida neque convallis a cras.",
+          "score": 3
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra adipiscing at in tellus integer feugiat.",
+          "score": 4
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus urna et pharetra pharetra massa massa. Pharetra diam sit amet nisl.",
+          "score": 2
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus urna et pharetra pharetra massa massa. Pharetra diam sit amet nisl.",
+          "score": 1
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra adipiscing at in tellus integer feugiat.",
+          "score": 1.5
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci dapibus ultrices in iaculis nunc sed augue lacus.",
+          "score": 2.5
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In cursus turpis massa tincidunt dui ut ornare. Augue eget arcu dictum varius duis.",
+          "score": 2.5
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl nisi scelerisque eu ultrices vitae auctor eu augue ut",
+          "score": 3.8
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper malesuada proin libero nunc consequat interdum varius.",
+          "score": 4.8
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id venenatis a condimentum vitae sapien pellentesque habitant morbi.",
+          "score": 4.7
+        }
+      ],
+      "pictures": [
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        }
+      ]
+    },
+    {
+      "id": 18671,
+      "name": "Sheraton Sharm",
+      "reviews": [
+        {
+          "review": "I really liked my stay in hilton sharm",
+          "score": 5
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim tortor at auctor urna. Mattis vulputate enim nulla aliquet porttitor.",
+          "score": 4.9
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et magnis dis parturient montes nascetur ridiculus. Dictum varius duis at consectetur lorem donec.",
+          "score": 4.6
+        }
+      ],
+      "pictures": [
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        }
+      ]
+    },
+    {
+      "id": 27861,
+      "name": "Grand Hayatt Sharm",
+      "reviews": [
+        {
+          "review": "I really liked my stay in hilton sharm",
+          "score": 5
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim tortor at auctor urna. Mattis vulputate enim nulla aliquet porttitor.",
+          "score": 4.9
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et magnis dis parturient montes nascetur ridiculus. Dictum varius duis at consectetur lorem donec.",
+          "score": 4.6
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus laoreet non curabitur gravida arcu ac tortor dignissim. In fermentum posuere urna nec.",
+          "score": 4.5
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec pretium vulputate sapien nec sagittis aliquam malesuada. Ipsum dolor sit amet consectetur adipiscing elit.",
+          "score": 4
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper malesuada proin libero nunc consequat interdum varius.",
+          "score": 4.8
+        },
+        {
+          "review":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id venenatis a condimentum vitae sapien pellentesque habitant morbi.",
+          "score": 4.7
+        }
+      ],
+      "pictures": [
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        },
+        {
+          "thumbnail": "https://picsum.photos/40/40/?random",
+          "photo": "http://picsum.photos/1015/1015/?random"
+        }
+      ]
+    }
+  ]
+}
