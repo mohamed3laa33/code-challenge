@@ -1,8 +1,8 @@
 
+This task is to show frontend developer skills (javascript, html, css), one page should be implemented that shows hotel list and the user can click on any hotel to get its details
 
 ![alt text](./frontend-challenge.png)
 
-This task is to show frontend developer skills (javascript, html, css), one page should be implemented that shows hotel list and the user can click on any hotel to get its details
 
 ## Acceptance Criteria
 - The application starts with listing all hotels 
