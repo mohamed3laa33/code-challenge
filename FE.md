@@ -1,5 +1,5 @@
 
-This task is to show frontend developer skills (javascript, html, css), one page should be implemented that shows hotel list and the user can click on any hotel to get its details
+The purpose of this task is to show your frontend skills (javascript, html, css), one page should be implemented that shows hotel list and the user can click on any hotel to get its details
 
 ![alt text](./frontend-challenge.png)
 
@@ -17,7 +17,8 @@ This task is to show frontend developer skills (javascript, html, css), one page
 
 ## Expectations
 
-- You can use any framework you want for this task (using VUE is a plus)
+- You can use any javascript framework you want for this task (using VUE is a plus)
+- You can use any css framework
 - ECMAScript 6 and beyond must be used
 - Unit testing
 - No plugin should be used for pagination and image gallery
