@@ -22,7 +22,7 @@ The purpose of this task is to show your frontend skills (javascript, html, css)
 - ECMAScript 6 and beyond must be used
 - Unit testing
 - No plugin should be used for pagination and image gallery
-- How the components will commuicate with each other ?
+- How will the components commuicate with each other ?
 - Quality over quantity
 - For uncompleted points please mention in the readme how you were going to implement them.
 
