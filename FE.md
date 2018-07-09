@@ -12,7 +12,7 @@ The purpose of this task is to show your frontend skills (javascript, html, css)
 - The user can change the number of nights and this will reflect on all hotels prices, the default is one night
 - The user should find an image gallery for the hotel
 - The user should see the comments divided into pages and each page contains 3 comments
-- The user can sort comments based on score
+- The user can sort comments based on comment score
 
 
 ## Expectations
@@ -22,6 +22,7 @@ The purpose of this task is to show your frontend skills (javascript, html, css)
 - ECMAScript 6 and beyond must be used
 - Unit testing
 - No plugin should be used for pagination and image gallery
+- How the components will commuicate with each other ?
 - Quality over quantity
 - For uncompleted points please mention in the readme how you were going to implement them.
 
