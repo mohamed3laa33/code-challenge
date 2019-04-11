@@ -4,12 +4,12 @@
 </p>
 
 ## Challenge Idea
-The main idea of this task is to simulate a simple mobile version of our website flight search implementation, This will require you to build a mobile app (for sure :D ) which connect to our restful API and display search results to users.
+The main idea of this task is to build a sample mobile version of our website flight search implementation, This will require you to build a mobile app (for sure :D ) which connect to our restful API and display search results to users.
 
 ## API Documentation
 
  Please find API documentation here https://docs.fly365.com/ , You can use stage or live environment, 
-#### API Key   
+## API Key   
  guMRjevTJNNgv49LRTNCTzfp9cWnW6Sj
 
 ## Acceptance Criteria
