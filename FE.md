@@ -1,5 +1,13 @@
+<p align="center">
 
+![alt text](./fly365.png)
+
+</p>
+
+
+## Challenge Idea
 The purpose of this task is to show your frontend skills (javascript, html, css), one page should be implemented that shows hotel list and the user can click on any hotel to get its details
+
 
 ![alt text](./frontend-challenge.png)
 
