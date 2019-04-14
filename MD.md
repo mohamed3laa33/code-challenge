@@ -31,3 +31,8 @@ The main idea of this task is to build a sample mobile version of our website fl
 
 We are looking for **readability, documentation, good architectural decisions, eye for performance, modularity, and unit tested code.**
 
+![alt text](./oneway.png)
+
+<br>
+
+![alt text](./result.png)
