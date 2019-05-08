@@ -1,6 +1,6 @@
 <p align="center">
 
-![alt text](./fly365.png)
+![alt text](../fly365.png)
 
 </p>
 
