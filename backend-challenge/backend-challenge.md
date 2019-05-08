@@ -66,3 +66,7 @@ Task will be evaluated based on
 5. Unit tests
 
 
+## Bonus
+
+1. Use Docker.
+2. Benchmarck the task.
