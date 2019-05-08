@@ -61,7 +61,7 @@ Implement this API `/api/payment/transaction `
 
 Task will be evaluated based on
 1. Code quality
-2. Application performance in reading large files and it will be measured by time and memory usage (hint Concurreny may improve the performance but `be carefull!` it may double the memory usage which will be affect the performance try to balance between time and memory)
+2. Application performance in reading large files and it will be measured by time and memory usage (hint Concurreny may improve the performance but `be careful!` it may double the memory usage which will be affect the performance try to balance between time and memory)
 3. Code scalabilty we should be able to add a new payment provider like flypayC with a new schema with the minimum possible changes 
 5. Unit tests
 
