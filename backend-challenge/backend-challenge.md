@@ -67,6 +67,5 @@ Task will be evaluated based on
 
 ## Bonus
 
-
 1. Use Docker.
 2. Benchmarck the task.
