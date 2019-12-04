@@ -14,7 +14,7 @@ The requirements are as follows:
 
 - Choose an appropriate CI/CD tool.
 - Use a container technology of your own choosing for the demo application.
-- Create kubernetes template to be ready to used on kubernetes environment
+- Create kubernetes template to be ready to used on kubernetes environment (bonus: using helm)
 - Setup a continuous deployment pipeline for the containerized demo application with your chosen CI/CD tool.
   - It should contain at least a testing and a deployment stage.
   - It should only be deployed if the testing stage pass, which runs the demo applications tests, is successful.
