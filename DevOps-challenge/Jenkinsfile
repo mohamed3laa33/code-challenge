@@ -50,7 +50,7 @@ pipeline {
       	      sed -i s/BranchName/${BRANCH_NAME}/ Deployment/deploy.yaml
 	      for f in app.yaml  namespaces.yaml  redis.yaml
 	      do
-              sed -i s/BranchName/${BRANCH_NAME}/ K8sDeployment/$f               
+              sed -i s/BranchName/${BRANCH_NAME}/ K8sDeployment/${f}               
               done
             """
           }
