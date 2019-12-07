@@ -50,6 +50,7 @@ pipeline {
               sed -i s/BranchName/${BRANCH_NAME}/ K8sDeployment/app.yaml
 	      sed -i s/BranchName/${BRANCH_NAME}/ K8sDeployment/namespaces.yaml
 	      sed -i s/BranchName/${BRANCH_NAME}/ K8sDeployment/redis.yaml
+	      kubectl apply -f K8sDeployment 
             """
           }
         }
