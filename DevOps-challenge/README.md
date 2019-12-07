@@ -82,3 +82,6 @@ You can run the tests by using:
 python tests/test.py
 ```
 
+
+### Run it using Docker 
+sudo sudo docker-compose up -d 
