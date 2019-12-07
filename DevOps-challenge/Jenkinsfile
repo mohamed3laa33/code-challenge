@@ -36,18 +36,22 @@ pipeline {
               sudo docker push mohamed3laa33/python
             """
           }
-        }
+        }  
       }
     }
+  }  
     stage('Deploy to Development Env or Production'){
-      if (env.BRANCH_NAME.equals('development') || env.BRANCH_NAME.equals('production')  ){
-        echo "Deployment stage"
-        sh """
-          cd ${WORKSPACE}/DevOps-challenge
-          sed -i s/BranchName/${BRANCH_NAME}/ K8sDeployment/
-        """
+      steps {
+        script{
+          if (env.BRANCH_NAME.equals('development') || env.BRANCH_NAME.equals('production')  ){
+            echo "Deployment stage"
+            sh """
+              cd ${WORKSPACE}/DevOps-challenge
+              sed -i s/BranchName/${BRANCH_NAME}/ K8sDeployment/
+            """
+          }
+        }
       }
     }
   }
 }
-
