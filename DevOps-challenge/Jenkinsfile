@@ -47,7 +47,7 @@ pipeline {
             echo "Deployment stage"
             sh """
               cd ${WORKSPACE}/DevOps-challenge
-	      find K8sDeployment/ -type f -exec sed -i.bak 's/BranchName/${BRANCH_NAME}/g' {} \;
+	      sed -i -- 's/BranchName/${BRANCH_NAME}/g' K8sDeployment
             """
           }
         }
