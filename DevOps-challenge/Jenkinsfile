@@ -47,7 +47,7 @@ pipeline {
             echo "Deployment stage"
             sh """
               cd ${WORKSPACE}/DevOps-challenge
-      	      find ./K8sDeployment -type f -exec sed -ie "s+/BranchName/${BRANCH_NAME}" * {} \;
+      	      find ./K8sDeployment -type f -exec sed -ie "s+/BranchName/${BRANCH_NAME}" * {} /;
 
             """
           }
