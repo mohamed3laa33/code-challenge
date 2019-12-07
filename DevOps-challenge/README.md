@@ -84,4 +84,6 @@ python tests/test.py
 
 
 ### Run it using Docker 
+``` bash 
 sudo sudo docker-compose up -d 
+```
