@@ -11,12 +11,12 @@ pipeline {
     stage('Run Unit Test and Lint'){
       steps{
         script{
-          if (env.BRANCH_NAME.equals('master')){
+          if (env.BRANCH_NAME.equals('addjenkinsfile')){
             echo   "This is Unit Test and Linting Stage"
             sh """
               echo "Unit testing and Liniting Commands"
               cd ${WORKSPACE}/DevOps-challenge
-              python tests/test.py
+              python3 tests/test.py
             """
           }
         }
