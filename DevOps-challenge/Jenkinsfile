@@ -47,8 +47,11 @@ pipeline {
             echo "Deployment stage"
             sh """
               cd ${WORKSPACE}/DevOps-challenge
-      	      find ./K8sDeployment -type f -exec sed -ie "s+/BranchName/${BRANCH_NAME}" * {} \;
-
+      	      sed -i s/BranchName/${BRANCH_NAME}/ Deployment/deploy.yaml
+	      for f in app.yaml  namespaces.yaml  redis.yaml
+	      do
+              sed -i s/BranchName/${BRANCH_NAME}/ K8sDeployment/$f               
+              done
             """
           }
         }
