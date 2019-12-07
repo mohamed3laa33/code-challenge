@@ -87,3 +87,6 @@ python tests/test.py
 ``` bash 
 sudo sudo docker-compose up -d 
 ```
+### Kubernetes 
+## kubernetes deployments here is designed to ran only from the CI/CD service as in it we are replacing BranchName with our current Namespace 
+We need to deploy redis before the app because app depends on redis
