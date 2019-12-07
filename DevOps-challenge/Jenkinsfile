@@ -16,7 +16,7 @@ pipeline {
             sh """
               echo "Unit testing and Liniting Commands"
               cd ${WORKSPACE}/DevOps-challenge
-              python tests/test.py
+              python3 tests/test.py
             """
           }
         }
@@ -25,15 +25,15 @@ pipeline {
     stage('Build if branch eq to master'){
       steps {
         script{
-          if (env.BRANCH_NAME.equals('master')){
+          if (env.BRANCH_NAME.equals('addjenkinsfile')){
               withCredentials([usernamePassword(credentialsId: 'docker', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
             sh """
               cd ${WORKSPACE}/DevOps-challenge
-              sudo docker login --username $USERNAME --password $PASSWORD 
-              sudo docker tag mohamed3laa33/python:${BUILD_NUMBER}
-              docker push push mohamed3laa33/python:${BUILD_NUMBER}
-              sudo docker build  -t mohamed3laa33/python . 
-              sudo docker push mohamed3laa33/python
+              docker login --username $USERNAME --password $PASSWORD 
+              docker tag mohamed3laa/python  mohamed3laa/python:${BUILD_NUMBER}
+              docker push mohamed3laa/python:${BUILD_NUMBER}
+              docker build  -t mohamed3laa/python . 
+              docker push mohamed3laa/python
             """
           }
         }  
@@ -43,11 +43,14 @@ pipeline {
     stage('Deploy to Development Env or Production'){
       steps {
         script{
-          if (env.BRANCH_NAME.equals('development') || env.BRANCH_NAME.equals('production')  ){
+          if (env.BRANCH_NAME.equals('development') || env.BRANCH_NAME.equals('production') || env.BRANCH_NAME.equals('addjenkinsfile')){
             echo "Deployment stage"
             sh """
               cd ${WORKSPACE}/DevOps-challenge
-              sed -i s/BranchName/${BRANCH_NAME}/ K8sDeployment/
+              sed -i s/BranchName/${BRANCH_NAME}/ K8sDeployment/app.yaml
+	      sed -i s/BranchName/${BRANCH_NAME}/ K8sDeployment/namespaces.yaml
+	      sed -i s/BranchName/${BRANCH_NAME}/ K8sDeployment/redis.yaml
+	      kubectl apply -f K8sDeployment 
             """
           }
         }
