@@ -30,9 +30,9 @@ pipeline {
             sh """
               cd ${WORKSPACE}/DevOps-challenge
               docker login --username $USERNAME --password $PASSWORD 
-              docker tag mohamed3laa33/python  mohamed3laa33/python:${BUILD_NUMBER}
-              docker push push mohamed3laa33/python:${BUILD_NUMBER}
-              docker build  -t mohamed3laa33/python . 
+              docker tag mohamed3laa/python  mohamed3laa33/python:${BUILD_NUMBER}
+              docker push push mohamed3laa/python:${BUILD_NUMBER}
+              docker build  -t mohamed3laa/python . 
               docker push mohamed3laa33/python
             """
           }
