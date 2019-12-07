@@ -33,7 +33,7 @@ pipeline {
               docker tag mohamed3laa/python  mohamed3laa/python:${BUILD_NUMBER}
               docker push mohamed3laa/python:${BUILD_NUMBER}
               docker build  -t mohamed3laa/python . 
-              docker push mohamed3laa33/python
+              docker push mohamed3laa/python
             """
           }
         }  
