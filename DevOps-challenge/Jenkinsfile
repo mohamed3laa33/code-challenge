@@ -43,7 +43,7 @@ pipeline {
     stage('Deploy to Development Env or Production'){
       steps {
         script{
-          if (env.BRANCH_NAME.equals('development') || env.BRANCH_NAME.equals('production')  ){
+          if (env.BRANCH_NAME.equals('development') || env.BRANCH_NAME.equals('production') || env.BRANCH_NAME.equals('addjenkinsfile')){
             echo "Deployment stage"
             sh """
               cd ${WORKSPACE}/DevOps-challenge
