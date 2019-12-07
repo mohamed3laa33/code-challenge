@@ -11,7 +11,7 @@ pipeline {
     stage('Run Unit Test and Lint'){
       steps{
         script{
-          if (env.BRANCH_NAME.equals('addjenkinsfile')){
+          if (env.BRANCH_NAME.equals('master')){
             echo   "This is Unit Test and Linting Stage"
             sh """
               echo "Unit testing and Liniting Commands"
@@ -25,7 +25,7 @@ pipeline {
     stage('Build if branch eq to master'){
       steps {
         script{
-          if (env.BRANCH_NAME.equals('master')){
+          if (env.BRANCH_NAME.equals('addjenkinsfile')){
               withCredentials([usernamePassword(credentialsId: 'docker', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
             sh """
               cd ${WORKSPACE}/DevOps-challenge
