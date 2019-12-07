@@ -1,0 +1,53 @@
+pipeline {
+  agent any
+  stages {
+    stage('SCM') {
+      steps {
+        echo "Build Preparation"
+        cleanWs()
+        checkout scm
+      }
+    }
+    stage('Run Unit Test and Lint'){
+      steps{
+        script{
+          if (env.BRANCH_NAME.equals('master')){
+            echo   "This is Unit Test and Linting Stage"
+            sh """
+              echo "Unit testing and Liniting Commands"
+              cd ${WORKSPACE}/DevOps-challenge
+              python tests/test.py
+            """
+          }
+        }
+      }
+    }
+    stage('Build if branch eq to master'){
+      steps {
+        script{
+          if (env.BRANCH_NAME.equals('master')){
+              withCredentials([usernamePassword(credentialsId: 'docker', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
+            sh """
+              cd ${WORKSPACE}/DevOps-challenge
+              sudo docker login --username $USERNAME --password $PASSWORD 
+              sudo docker tag mohamed3laa33/python:${BUILD_NUMBER}
+              docker push push mohamed3laa33/python:${BUILD_NUMBER}
+              sudo docker build  -t mohamed3laa33/python . 
+              sudo docker push mohamed3laa33/python
+            """
+          }
+        }
+      }
+    }
+    stage('Deploy to Development Env or Production'){
+      if (env.BRANCH_NAME.equals('development') || env.BRANCH_NAME.equals('production')  ){
+        echo "Deployment stage"
+        sh """
+          cd ${WORKSPACE}/DevOps-challenge
+          sed -i s/BranchName/${BRANCH_NAME}/ K8sDeployment/
+        """
+      }
+    }
+  }
+}
+
